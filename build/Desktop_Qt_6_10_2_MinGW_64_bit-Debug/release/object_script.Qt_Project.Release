@@ -1,0 +1,17 @@
+release/main.o
+release/mainwindow.o
+release/homepage.o
+release/settingpage.o
+release/logpage.o
+release/database_manager.o
+release/scanner_server.o
+release/alarm_controller.o
+release/qrc_resources.o
+release/moc_mainwindow.o
+release/moc_homepage.o
+release/moc_settingpage.o
+release/moc_logpage.o
+release/moc_row_delegate.o
+release/moc_database_manager.o
+release/moc_scanner_server.o
+release/moc_alarm_controller.o

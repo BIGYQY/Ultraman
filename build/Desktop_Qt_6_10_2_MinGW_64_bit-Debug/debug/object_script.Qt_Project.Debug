@@ -1,0 +1,17 @@
+debug/main.o
+debug/mainwindow.o
+debug/homepage.o
+debug/settingpage.o
+debug/logpage.o
+debug/database_manager.o
+debug/scanner_server.o
+debug/alarm_controller.o
+debug/qrc_resources.o
+debug/moc_mainwindow.o
+debug/moc_homepage.o
+debug/moc_settingpage.o
+debug/moc_logpage.o
+debug/moc_row_delegate.o
+debug/moc_database_manager.o
+debug/moc_scanner_server.o
+debug/moc_alarm_controller.o

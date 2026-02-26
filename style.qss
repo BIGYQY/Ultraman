@@ -1,0 +1,87 @@
+/* 100% 照猫画虎 - 细节绝杀终极版 QSS */
+
+#centralWidget {
+    background-color: #000000;
+    border: 1.5px solid #FFFFFF; /* 按照老板指令：以这根白线为标准，其余全变白 */
+    border-radius: 12px;
+}
+
+#sideBar {
+    background-color: transparent;
+    border-right: 1px solid white;
+    border-bottom-left-radius: 15px;
+}
+
+/* 侧边按钮：精致图标化 */
+QPushButton.sideBtn {
+    background-color: transparent;
+    border: none;
+    qproperty-iconSize: 38px 38px; /* 调大图标尺寸，更清晰 */
+    padding: 0px;
+    margin: 0px;
+}
+
+/* 选中项：纯白背板 */
+QPushButton.sideBtn:checked {
+    background-color: #FFFFFF;
+}
+
+/* 左上角第一个按钮：圆角完美贴合 */
+QPushButton#sideHome {
+    border-top-left-radius: 14px;
+}
+
+/* 顶栏 Dashboard */
+#topBar {
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    border-top-right-radius: 14px;
+}
+
+#dashboardTitle {
+    font-size: 26px;
+    font-weight: bold; /* 重新加粗，彰显地位 */
+    color: white;
+    padding-left: 20px;
+}
+
+/* 状态位文字：回归 18px */
+#topBar QLabel {
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/* 表格：按老板指令下调字号与行间距 */
+QTableWidget {
+    background-color: transparent;
+    border: none;
+    gridline-color: #FFFFFF; /* 极细纯白线条，致敬样板图 */
+    border-bottom-right-radius: 12px;
+    selection-background-color: #333333;
+    outline: none;
+    font-size: 16px; 
+    font-weight: normal;
+    color: white;
+}
+
+QHeaderView::section {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 8px;
+    border: none;
+    border-right: 1px solid #FFFFFF; /* 表头线条也变白 */
+    border-bottom: 1px solid #FFFFFF;
+    font-weight: bold; 
+    font-size: 18px;   
+}
+
+/* 隐藏所有潜在的滚动条占位 */
+QScrollBar:vertical, QScrollBar:horizontal {
+    width: 0px;
+    height: 0px;
+}
+
+QAbstractScrollArea {
+    border: none;
+}

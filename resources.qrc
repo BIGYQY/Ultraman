@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>style.qss</file>
+        <!-- 侧边栏图标 -->
+        <file>assets/home_white.png</file>
+        <file>assets/home_black.png</file>
+        <file>assets/setting_white.png</file>
+        <file>assets/setting_black.png</file>
+        <file>assets/log_white.png</file>
+        <file>assets/log_black.png</file>
+        <!-- 顶栏图标 -->
+        <file>assets/date_white.png</file>
+        <file>assets/yield_white.png</file>
+        <file>assets/filter_white.png</file>
+    </qresource>
+</RCC>
